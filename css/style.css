@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/*seletor universal*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: "Mulish", sans-serif;
+    background-color: #A9A9A9;
+    
+}
+:root {
+    --cinza: #A9A9A9;
+    --roxo:#630c50;
+    --degrade-bnt: linear-gradient(#630c50, #8c4d7e);
+    --color-p: #a1a1a1;
+    --color-p-2: #868585;
+}
+.background-cinza{
+    background: var(--cinza);
+}
+
+/*classe reutilizavel- delimitar o conteudo*/
+.container1 {
+    max-width: 1440px;
+    padding: 0 5%;
+    margin: 0 auto;
+    background-color: #A9A9A9; /* fundo do container da barra de navegaçao*/
+}
+.btn-gradiente {
+    padding: 10px 25px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    background-image: var(--degrade-bnt);
+}
+/*classses do site*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+.ul{
+    display: flex;
+    align-items: center;
+}
+.ul li {
+    margin: 0 35px;
+    font-size: 15px;
+}
+.ul li {
+    color: white;
+}
+
+/*main*/
+main .container2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.main-text {
+    width: 50%;
+    color: white;
+    text-align: center;
+}
+.main-text h1 {
+    font-size: 4,5rem;
+}
+.main-text div{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.main-img{
+    width: 68%;
+
+}
+
+.fundoForm {
+    background-color: #A9A9A9;
+    font-family: "Mulish", sans-serif;
+    padding-top: 60px;
+}
+/* Container que tem o formulario */
+.containerForm {
+    background-color: #A9A9A9; /* fundo do formulario*/
+    height:  auto;
+    margin: 8%; /* alinhamento do formulario no meio do site */
+    color:#630c50; /*muda as cores da fonte e titulo do formulario*/
+}
+
+.containerForm {
+    width: 100%;
+    align-items: center;
+    max-width: 500px; /* Define a largura máxima do formulário */
+    padding: 20px; /* Espaço ao redor do formulário */
+    background-color: rgb(255, 255, 255); /* Fundo branco para o formulário */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgb(125, 117, 117); /* Sombra leve para destaque */
+    margin-left: 10% ; /* alinhamento formulario */
+    margin-right: 50%; /* alinhamento formulario */
+    margin-top: 5px;
+    justify-content: center;
+    
+}
+
+/* Estilizar os elementos do formulário */
+.containerForm form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px; /* Espaçamento entre os elementos do formulário */
+}
+
+.containerForm label, .containerForm input, .containerForm button {
+    width: 100%;
+}
+
+.containerForm button {
+    padding: 10px;
+    background-color: #630c50; /* Cor do botão*/
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+.corposite {
+    text-align: center;
+}
+
+.textoinfo {
+    background-color: #ffffff;
+    height:  auto;
+    margin: 10px; /* Alinhamento do usuario cadastrado no site no actionform*/
+    padding: 20px; /* Afasta o conteúdo da borda interna do elemento */
+    border-radius: 8px;
+    margin-left:30% ;/* Tamanho das margem do container <-----*/
+    margin-right: 30%;/* Tamanho das margem do container ----->*/
+
+}
+
+
+.emconstrucao {
+    margin: auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 400px; /* Defina um tamanho máximo para o elemento */
+    text-align: center; /* Centraliza o conteúdo interno */
+}
+
+.container3 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;;
+    margin-top: 5px;
+    text-align: left;
+}
+.main-text3 {
+    width: 50%;
+    color: white;
+    text-align: left;
+}
+.main-text3 h15 {
+    font-size: 4,5rem;
+}
+.main-text3 div{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.main-img3 {
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    display: inline-block;
+}
